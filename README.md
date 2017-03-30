@@ -1,4 +1,4 @@
-Repository for front-end
+Repository for front-end for testTIM
 
 install npm:
 
@@ -11,3 +11,5 @@ $ bower install
 start server:
 
 $ gulp serve
+
+port for Front-end: 3000
