@@ -1,0 +1,40 @@
+<div class="modal-header">
+  <h4 class="modal-title">Please add new comments</h4>
+</div>
+<div class="modal-body">
+  <div class="row">
+    <div class="col-md-12">
+      <form>
+        <div class="form-group">
+          <label for="Username">Username</label>
+          <input type="text" ng-model="username" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="Mail">Email</label>
+          <input type="text" ng-model="mail" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="URL">Homepage</label>
+          <input type="text" ng-model="Homepage" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="text">Text</label>
+          <textarea type="text" ng-model="text" class="form-control" style="resize: none;"/>
+        </div>
+        <div class="form-group">
+          <label for="text">Image</label>
+          <input type="file" ng-model="image"/>
+        </div>
+        <div class="form-group">
+          <label for="text">Text-file</label>
+          <input type="file" ng-model="file" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-white" ng-click="contr.cancel()">Close</button>
+  <button type="button" class="btn btn-primary" ng-click="contr.ok()">Save changes</button>
+</div>
